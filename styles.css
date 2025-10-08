@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+body{
+display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: white;
+	font-family:Arial,sans-serif;
+}
+.card{
+width : 300px;
+	border-radius: 10px;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+	text-align:center;
+	padding : 20px;
+}
+.card{
+width: 100%;
+border-radius: 5px;
+}
+.card h1{
+margin : 15px 0 10px;
+font-size: 24px;
+font-weight:bold;
+}
+.card p{
+font-size:16px;
+margin: 5px 0;
+}
+btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      background: #ff5c5c;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #e64545;
+    }
